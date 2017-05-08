@@ -1,0 +1,5 @@
+check process letsencrypt
+  with pidfile /var/vcap/sys/run/letsencrypt/pid
+  start program "/var/vcap/jobs/letsencrypt/bin/ctl start"
+  stop program "/var/vcap/jobs/letsencrypt/bin/ctl stop"
+  group vcap
