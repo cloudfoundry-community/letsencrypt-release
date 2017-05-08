@@ -11,6 +11,9 @@ This release enables BOSH deployments to acquire Let's Encrypt SSL certificates.
 
 This is a work-in-progress; it is non-functional.
 
+Note:
+The acme client used here is Daniel Roesler's [acme-tiny](https://github.com/diafygi/acme-tiny/blob/master/acme_tiny.py). Thanks Daniel.
+
 Alternatives:
 
 * [Danny Berger](https://github.com/dpb587) wrote a [Let's Encrypt BOSH
