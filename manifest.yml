@@ -8,7 +8,10 @@ releases:
 
 networks:
 - name: default
-  type: dynamic
+  type: manual
+  subnets:
+  - range: 10.244.0.0/24
+    static: [10.244.0.88]
 
 resource_pools:
 - name: default
@@ -37,3 +40,4 @@ jobs:
   resource_pool: default
   networks:
   - name: default
+    static_ips: [10.244.0.88]
