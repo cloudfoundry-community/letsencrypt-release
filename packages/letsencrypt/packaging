@@ -2,4 +2,4 @@
 set -e
 
 mkdir ${BOSH_INSTALL_TARGET}/bin
-cp src/acme_tiny.py ${BOSH_INSTALL_TARGET}/bin
+cp acme_tiny.py ${BOSH_INSTALL_TARGET}/bin
