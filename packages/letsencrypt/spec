@@ -1,0 +1,7 @@
+---
+name: letsencrypt
+
+dependencies: []
+
+files:
+- src/acme_tiny.py # From https://github.com/diafygi/acme-tiny

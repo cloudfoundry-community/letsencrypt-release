@@ -3,3 +3,4 @@ name: letsencrypt
 templates:
   ctl.erb: bin/ctl
 packages:
+- letsencrypt
